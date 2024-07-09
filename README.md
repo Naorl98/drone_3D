@@ -1,12 +1,5 @@
 # 3D Drone Simulation
 
-
-
-
-## Overview
-This project is an extension of a previous [2D drone simulation project](https://github.com/roni5604/Model_2D_drone_simulator) and aims to simulate a 3D drone environment using Pygame. The initial 2D project involved creating a basic control system for drone navigation, sensor modeling, and platform search in a 2D space. The 2D drone was able to move in a plane, detect obstacles with simple sensor models, and navigate through predefined maps.
-
-
 The transition from 2D to 3D brought several challenges and improvements:
 1. **Dimension Expansion**: Moving from a flat plane to a 3D space added complexity in terms of movement, sensor detection, and obstacle management.
 2. **Sensor Modeling**: Adapting the sensor models to a 3D environment required enhancements to cover vertical as well as horizontal obstacle detection.
@@ -15,9 +8,6 @@ The transition from 2D to 3D brought several challenges and improvements:
 
 
 The 3D project now includes drone movement, sensor visualization, autonomous navigation, and return home functionality. The drone can navigate through a predefined map with obstacles, and the user can switch between different sensor configurations.
-
-
-This project builds upon the foundations laid by the [base project in Java](https://github.com/vection/DroneSimulator) that we started from.
 
 
 ## Project Structure

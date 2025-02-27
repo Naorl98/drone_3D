@@ -1,5 +1,12 @@
 # 3D Drone Simulation
 
+
+
+
+## Overview
+This project is an extension of a previous [2D drone simulation project](https://github.com/roni5604/Model_2D_drone_simulator) and aims to simulate a 3D drone environment using Pygame. The initial 2D project involved creating a basic control system for drone navigation, sensor modeling, and platform search in a 2D space. The 2D drone was able to move in a plane, detect obstacles with simple sensor models, and navigate through predefined maps.
+
+
 The transition from 2D to 3D brought several challenges and improvements:
 1. **Dimension Expansion**: Moving from a flat plane to a 3D space added complexity in terms of movement, sensor detection, and obstacle management.
 2. **Sensor Modeling**: Adapting the sensor models to a 3D environment required enhancements to cover vertical as well as horizontal obstacle detection.
@@ -8,6 +15,9 @@ The transition from 2D to 3D brought several challenges and improvements:
 
 
 The 3D project now includes drone movement, sensor visualization, autonomous navigation, and return home functionality. The drone can navigate through a predefined map with obstacles, and the user can switch between different sensor configurations.
+
+
+This project builds upon the foundations laid by the [base project in Java](https://github.com/vection/DroneSimulator) that we started from.
 
 
 ## Project Structure
@@ -221,7 +231,7 @@ Users can observe the drone's movement, sensor detection, and obstacle avoidance
 
 
 #### Initial Position
-![Initial Position](Screenshots/start_position.png)
+![Initial Position](Screenshots/floor_1.png)
 
 
 This screenshot shows the initial position of the drone in the simulation. The drone starts at a predefined point, ready for manual or autonomous navigation.
@@ -242,7 +252,7 @@ This image depicts the drone at the start of a new mission. The map and sensors 
 
 
 #### Floor 1
-![Floor 1](Screenshots/floor_1.png)
+![Floor 1](Screenshots/start_position.png)
 
 
 This screenshot shows the layout of the first floor in the simulation environment. It includes obstacles and navigable areas that the drone must navigate through.
@@ -371,6 +381,10 @@ your system. You can install Pygame using pip:
 - **Autonomous Navigation**: The drone can autonomously navigate through the map, avoiding obstacles and reaching its destination.
 - **Return Home Functionality**: The drone can return to its starting position automatically, ensuring a safe and efficient return.
 
+## Final Design Additions We Made
+
+- **User Interface Enhancements**: Improve the UI to make it more intuitive and user-friendly, allowing users to interact with the simulation more effectively, For example, add dots on the walls with the distances from the drone sensors.
+- **Movement outputs**: Add a text (in terminal) output that shows the drone's movement in real-time, providing additional feedback to the user.
 
 ## Future Improvements
 - **3D Visualization**: Enhance the visualization to represent a more realistic 3D environment, improving the user experience.
@@ -388,5 +402,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Authors
 - [Naor Ladani](https://github.com/Naorl98)
-
-
